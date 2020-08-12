@@ -1,6 +1,6 @@
 <?php
 
-  // Performs all actions necessary to log in an admin
+  // Performs all actions necessary to log in an admine
   function log_in_admin($utilisateur) {
   // Renerating the ID protects the admin from session fixation.
     session_regenerate_id();
